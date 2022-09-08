@@ -3662,6 +3662,10 @@
 			text-transform: none;
 		}
 
+		#banner h3 {
+			font-size: 2.5em;
+		}
+
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
