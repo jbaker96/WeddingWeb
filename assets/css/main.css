@@ -4260,6 +4260,10 @@
 			max-width: 100%
 		}
 
+		#banner h3 {
+			font-size: 1.5em;
+		}
+
 	}
 
 /* Footer */
