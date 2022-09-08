@@ -4212,7 +4212,7 @@
 
 	#centered {
 		text-align: center;
-		padding-top: 3em;
+		padding: 1.5em 0;
 		border-top: #ffffff7e 0.5px solid
 	}
 
@@ -4262,6 +4262,10 @@
 
 		#banner h3 {
 			font-size: 24px;
+		}
+
+		#centered a {
+			padding: 0 3em 3em 3em;
 		}
 
 	}
