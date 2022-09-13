@@ -3510,7 +3510,7 @@
 		z-index: 10002;
 		background-image: url("../../images/wood1.jpeg");
 		background-repeat: repeat-y;
-		background-size: cover;
+		background-size: contain;
 	}
 
 		#menu > ul {
@@ -3605,6 +3605,8 @@
 
 			#menu {
 				padding: 2.5em 1.75em;
+				background-repeat: repeat-y;
+				background-size: contain;
 			}
 
 		}
