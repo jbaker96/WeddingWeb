@@ -17,7 +17,10 @@
 
 		<!-- Header -->
 			<header id="header">
-				<div class="logo"><a href="index.html">A + J</a></div>
+				<div class="logo">
+					<a href="index.html">A + J</a>
+					<a href="https://instagram.com" class="icon round fa-instagram" id="headerlogo"><span class="label">Instagram</span></a>
+				</div>
 				<a href="#menu"><span>Menu</span></a>
 			</header>
 
@@ -188,29 +191,54 @@
 				<div class="inner">
 
 					<h2>RSVP</h2>
+					<h3>Please RSVP by March 29<sup>th</sup> 2023</h3>
 
-					<form action="#" method="post">
-
-						<!-- <div class="field half first">
-							<label for="name">Name</label>
-							<input name="name" id="name" type="text" placeholder="Name">
+					<form action="https://formsubmit.co/jack_baker_96@yahoo.ca" method="POST">
+						<input type="hidden" name="_next" value="https://ashleighandjack2023.ca/thankyou.html">
+						<input type="hidden" name="_subject" value="Wedding RSVP">
+						<!-- <input type="hidden" name="_cc" value="ashleighswanson@hotmail.com"> -->
+						<input type="hidden" name="_template" value="box">
+						
+						<div class="field"> 
+							<label for="">Number of Guests<b style="color:red">*</b></label>
+							<select name="NoG" id="category" value="0" required>
+								<option value="0">Number of Guests?</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8+</option>
+							</select>
+						</div>	
+						
+						<div class = "field sweep-away" id = "trans1" style="display:none">
+							<label name = "NamesLabel" > Guest Names<b style="color:red">*</b></label>
+							<textarea name="GuestNames" id="" type="list" placeholder="One guest per line" required></textarea>
 						</div>
-						<div class="field half">
+						
+						<div class = "field sweep-away" id = "trans2" style="display:none">
+							<label> Response<b style="color:red">*</b></label>
+							<input name="YN" id="Y" type="radio" value="Yes" required>
+							<label for="Y">Can't wait for the big day!</label>
+							<input name="YN" id="N" type="radio" value="No">
+							<label for="N">Unfourtunately not able to make it</label>
+						</div>
+					
+						<div class="field">
 							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div> -->
+							<input name="email" id="email" type="email" placeholder="Enter your Email if you would like updates sent to you">
+						</div>
 						<div class="field">
 							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6" placeholder="This will do nothing yet. Please hold"></textarea>
+							<textarea name="message" id="message" rows="3" placeholder="This will do nothing yet. Please hold"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input value="Send Response" class="button alt" type="submit"></li>
+							<li><input name = "Submit" value="Send Response" class="button alt" type="submit"></li>
 						</ul>
 					</form>
-
-					<ul class="icons">
-						<li><a href="https://instagram.com" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
 
 					<div class="copyright">
 						Template: <a href="https://templated.live/roadtrip/">TEMPLATED</a> Design: <a href="https://google.com">Jack</a>
@@ -226,6 +254,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/rsvp.js"></script>
 
 	</body>
 </html>
