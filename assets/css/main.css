@@ -62,7 +62,7 @@
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
+		-webkit-box-sizing: border-box; 
 		box-sizing: border-box;
 	}
 
@@ -4381,7 +4381,7 @@
 /* Placecard */
 
 	.placecard {
-		background-color: #fefbf4;
+		background-color: #fffaef;
 		padding: 6em 0;
 		position: relative;
 		z-index: 1;
@@ -4444,6 +4444,11 @@
 
 		#footer input, #footer select, #footer textarea {
 			color: #ffffff;
+			/* border: pink 2px solid; */
+		}
+
+		#footer option {
+			color: pink;
 		}
 
 		#footer a {
@@ -4561,10 +4566,6 @@
 				box-shadow: 0 0 0 1px #ffffff;
 			}
 
-		#footer .select-wrapper:before {
-			color: rgba(255, 255, 255, 0.25);
-		}
-
 		#footer input[type="checkbox"] + label,
 		#footer input[type="radio"] + label {
 			color: #ffffff;
@@ -4589,8 +4590,12 @@
 			box-shadow: 0 0 0 1px #ffffff60;
 		}
 
-		#footer ::-webkit-input-placeholder {
-			color: #ffffff60 !important;
+		#footer option {
+			background-color:rgba(0, 0, 0, 0.2);
+		}
+
+		#footer :-webkit-input-placeholder {
+			color: #ffffff !important;
 		}
 		
 		#footer :-moz-placeholder {
@@ -4624,7 +4629,7 @@
 			#footer table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(255, 255, 255, 0.075);
 			}
-
+		
 		#footer table th {
 			color: #ffffff;
 		}
@@ -4693,3 +4698,6 @@
 
 		}
 
+		#footer select #category {
+			color: pink;
+		}
