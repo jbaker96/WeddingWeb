@@ -4591,8 +4591,8 @@
 		}
 
 		#footer option {
-			background-color:rgba(0, 0, 0, 0.075);
-			color: #ffffff;
+			background-color: rgba(0, 0, 0, 0.075);
+			color: #000000;
 		}
 
 		#footer :-webkit-input-placeholder {
@@ -4697,8 +4697,4 @@
 				padding: 3em 0 1em 0;
 			}
 
-		}
-
-		#footer select #category {
-			color: pink;
 		}
