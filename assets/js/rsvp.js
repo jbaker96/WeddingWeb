@@ -3,11 +3,7 @@ const GN = document.getElementsByName("GuestNames")[0];
 var currow = GN.rows
 
 NoG.addEventListener("change", function() {
-	if (NoG.value == "Number of Guests?"){
-		GN.rows = 1;
-	} else {
-		GN.rows = NoG.value
-	}
+	GN.rows = NoG.value
 });
 // 	if (NoG.value == 0){
 // 		trans1.classList.remove("Transition");

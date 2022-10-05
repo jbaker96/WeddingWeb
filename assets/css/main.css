@@ -3097,7 +3097,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #F64747;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -4697,4 +4697,12 @@
 				padding: 3em 0 1em 0;
 			}
 
+			.wrapper {
+				min-height: 650px;
+			}
+
+		}
+
+		a {
+			color: #ffffff;
 		}
