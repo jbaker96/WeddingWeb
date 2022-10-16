@@ -4423,11 +4423,11 @@
 		color: #ffffff;
 	}
 
-	/* .large {
+	.largecontent {
 		height: auto;
-	} */
+	}
 
-	@media screen and (min-width: 481px) {
+	@media screen and (min-width: 561px) {
 		.content-timeline {
 			width: 100%;
 			font-family: 'ostrich';
@@ -4522,7 +4522,7 @@
 		}
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 560px) {
 
 		.topright {
 			max-width: 100%
