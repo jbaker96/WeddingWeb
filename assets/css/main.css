@@ -4423,9 +4423,9 @@
 		color: #ffffff;
 	}
 
-	.large {
+	/* .large {
 		height: auto;
-	}
+	} */
 
 	@media screen and (min-width: 481px) {
 		.content-timeline {
