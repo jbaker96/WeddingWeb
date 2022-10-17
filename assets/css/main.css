@@ -3941,7 +3941,7 @@
 		}
 
 	.post {
-		display: -ms-flexbox;
+		display: -ms-flex;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
 		-moz-align-items: center;
@@ -3956,13 +3956,13 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-position: center;
+		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		border-top: 0;
 		min-height: 100vh;
-		height: 100vh;
+		/* height: 100vh; */
 		position: relative;
 		text-align: center;
 		overflow: hidden;
