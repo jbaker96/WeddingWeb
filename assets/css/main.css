@@ -4903,6 +4903,7 @@
 
 			.wrapper {
 				min-height: 75vh;
+				width: auto;
 			}
 
 		}
