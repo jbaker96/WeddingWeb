@@ -4901,8 +4901,8 @@
 				padding: 3em 0 1em 0;
 			}
 
-			/* .wrapper {
-				min-height: 650px;
-			} */
+			.wrapper {
+				min-height: 75vh;
+			}
 
 		}
