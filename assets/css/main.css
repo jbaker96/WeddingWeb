@@ -3873,7 +3873,7 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		/* background-attachment: fixed; */
+		background-attachment: fixed;
 	}
 
 		#post .inner {
@@ -3956,7 +3956,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-position: center center;
+		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -4198,7 +4198,7 @@
 			.post {
 				min-height: 0;
 				height: auto;
-				/* background-attachment: scroll; */
+				background-attachment: scroll;
 			}
 
 				.post h2 {
@@ -4225,9 +4225,9 @@
 
 /* Main */
 
-	.space {
+	/* .space {
 		height: 40vh;
-	}	
+	}	 */
 
 	#main {
 		padding: 4em 0 2em 0;
